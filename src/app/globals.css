@@ -70,7 +70,6 @@ body{
 }
 
 .about{
-  display: flex;
   background-color: #ac95da;
   padding: 50px;
 }
