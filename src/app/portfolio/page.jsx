@@ -20,6 +20,10 @@ const Portfolio = () => {
             <p>Play Drum Kit HTML, CSS, JS </p>
         </div>
         <div className="portfolioCard">
+            <a target={"_blank"} href={"https://karsilama.netlify.app/"}><img className='portfolioimg' src="karsilama.png" alt="image" /></a>
+            <p>Greeting page HTML, CSS, JS </p>
+        </div>
+        <div className="portfolioCard">
             <a target={"_blank"} href={"https://altug-survey-form.netlify.app/"}><img className='portfolioimg' src="surveyform.png" alt="image" /></a>
             <p>Responsive four card design section with HTML, CSS </p>
         </div>
