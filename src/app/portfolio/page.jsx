@@ -16,6 +16,10 @@ const Portfolio = () => {
             <p>Advice generator design, gives randon advices. HTML, CSS, JS </p>
         </div>
         <div className="portfolioCard">
+            <a target={"_blank"} href={"https://altug-survey-form.netlify.app/"}><img className='portfolioimg' src="surveyform.png" alt="image" /></a>
+            <p>Responsive four card design section with HTML, CSS </p>
+        </div>
+        <div className="portfolioCard">
             <a target={"_blank"} href={"https://altugokumus.github.io/four-cards/"}><img className='portfolioimg' src="four-cards.png" alt="image" /></a>
             <p>Responsive four card design section with HTML, CSS </p>
         </div>
