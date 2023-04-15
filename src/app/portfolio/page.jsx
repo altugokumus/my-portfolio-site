@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div className='portfolio'>
         <div className="portfolioCard">
-            <a target={"_blank"} href={"https://altug-weather-app.netlify.app/"}><img className='portfolioimg' src="waether-app.png" alt="image" /></a>
+            <a target={"_blank"} href={"https://altug-weather-app.netlify.app/"}><img className='portfolioimg' src="weather-app.png" alt="image" /></a>
             <p>WeatherApp HTML, CSS, React.js</p>
         </div>
         <div className="portfolioCard">
