@@ -4,8 +4,8 @@ const Portfolio = () => {
   return (
     <div className='portfolio'>
         <div className="portfolioCard">
-            <a target={"_blank"} href={"http://altugokumus.com/"}><img className='portfolioimg' src="altugwebsite.png" alt="image" /></a>
-            <p>My first portfolio website HTML, CSS</p>
+            <a target={"_blank"} href={"https://altug-weather-app.netlify.app/"}><img className='portfolioimg' src="waether-app.png" alt="image" /></a>
+            <p>WeatherApp HTML, CSS, React.js</p>
         </div>
         <div className="portfolioCard">
             <a target={"_blank"} href={"https://altugokumus.github.io/rate-app/"}><img className='portfolioimg' src="rating.png" alt="image" /></a>
