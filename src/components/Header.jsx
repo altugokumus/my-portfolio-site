@@ -11,7 +11,8 @@ const Page = () => {
         <ul className={styles.navItems}>
             <li><Link className={styles.link} href={"/"}>Home</Link></li>
             <li><Link className={styles.link} href={"/about"}>About</Link></li>
-            <li><Link className={styles.link} href={"/portfolio"}>Portfolio</Link></li>
+            <li><Link id={styles.coding} className={styles.link} href={"/coding"}>Code</Link></li>
+            <li><Link id={styles.design} className={styles.link} href={"/design"}>Design</Link></li>
             <li><Link className={styles.link} href={"/contact"}>Contact</Link></li>
         </ul>
     </div>

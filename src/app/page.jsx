@@ -1,15 +1,30 @@
+"use client"
 
+import { useEffect, useState } from "react";
 
 export default function Home() {
+
+  const [data, setData] = useState("")
+
+  useEffect( () =>{
+
+    fetch("https://api.adviceslip.com/advice")
+        .then(res => {
+            return res.json();
+        })
+        .then(data => {
+            setData(data);
+        })
+}, [])
+
+
   return (
-   
       <div className="firstSection">
         <div>
-          <h1 className="greeting">Hello! I am a developer.</h1>
+          <h1 className="greeting">{data && data.slip.advice}</h1>
         </div>
         <div>
-          <img className="panda" src="pandatrns.png" alt="panda" />
-          <p>*Created with Dall-e</p>
+          <img className="dog" src="dog.png" alt="panda" />
         </div>
       </div>
    

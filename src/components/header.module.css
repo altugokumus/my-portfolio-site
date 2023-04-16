@@ -23,6 +23,26 @@
     border: 5px solid black;
   }
 
+  #design{
+    background-color: rgb(121, 197, 188);
+    color: antiquewhite;
+  }
+
+  #design:hover{
+    background-color: rgb(123, 219, 213);
+    color: antiquewhite;
+  }
+
+  #coding{
+    background-color: rgb(80, 65, 95);
+    color: aliceblue;
+  }
+
+  #coding:hover{
+    background-color: rgb(132, 86, 179);
+    color: aliceblue;
+  }
+
  .link:hover{
     color: rgb(255, 255, 255);
  }
