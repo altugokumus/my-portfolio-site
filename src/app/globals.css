@@ -9,6 +9,50 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.music-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+}
+
+.play-btn{
+  color: #24ded8;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+}
+
+.skip-btn{
+  color: #24ded8;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+.play-btn, .skip-btn:hover{
+  cursor: pointer;
+}
+
+.player-controls{
+  align-items: center;
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.player-controls > img{
+  width: 50px;
+}
+
+.player-controls > p{
+  font-size: 12px;
+  color: rgb(211, 211, 211);
+}
+
 .firstSection{
   display: flex;
   justify-content: space-between;
@@ -144,7 +188,7 @@ footer{
 
 
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 720px) {
   .firstSection{
     display: flex;
     flex-direction: column-reverse;
@@ -152,7 +196,7 @@ footer{
     text-align: center;
   }
 
-  .panda{
+  .dog{
     width: 100%;
   }
 
@@ -179,6 +223,24 @@ footer{
   body{
     overflow-x: hidden;
   }
+
+  .player-controls > img{
+    width: 30px;
+  }
+  
+  .player-controls > p{
+    font-size: 8px;
+    color: rgb(211, 211, 211);
+  }
+
+  .player-controls{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .music-container{
+    padding: 25px 0;
+  }
 }
 @media only screen and (max-width: 347px) {
   
@@ -189,4 +251,6 @@ footer{
   .portfolioimg{
     width: 150px;
   }
+
+
 }
